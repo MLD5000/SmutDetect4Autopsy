@@ -21,7 +21,7 @@
         click next.
     8.  Set the project name and location (user preference).
     9.  Select Standalone Module and click "Manage".
-   10.  Click "Add Platform" and navigate to and select the Autopsy application folder in its install location, 
+10.  Click "Add Platform" and navigate to and select the Autopsy application folder in its install location, 
         then click "Finish".
         (probably in Program files/AutopsyX.X.X)
    11.  
