@@ -53,7 +53,7 @@
          -UI Utilities API
          -Utilities API
          Click OK.
-    21.  From the NetBean menu bar select Run->Build Poject.
+    21.  From the NetBeans menu bar select Run->Build Project.
     22.  Right click on the project in the NetBeans Project pane and select "Create nbm".
     23.  Locate this nbm file in the NetBeans project directory.
     24.  Open the Autopsy application.
