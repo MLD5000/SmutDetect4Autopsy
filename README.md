@@ -44,7 +44,27 @@
          -SmutDetectIngestJobSettingsPanel.java
          -SmutDetectIngestModuleFactory.java
          -SmutDetect_32.png
-    18.  
+    18.  Right click on the project in the project pane and select "Properties".
+    19.  Under Categories and select "libraries".
+    20.  Add the following to the "Module Dependencies":
+         -Actions APIs
+         -Autopsy-Core
+         -Lookup API
+         -UI Utilities API
+         -Utilities API
+         Click OK.
+    21.  From the NetBean menu bar select Run->Build Poject.
+    22.  Right click on the project in the NetBeans Project pane and select "Create nbm".
+    23.  Locate this nbm file in the NetBeans project directory.
+    24.  Open the Autopsy application.
+    25.  From the Autopsy menu bar, select Tools->Plugins.
+    26.  Select the "Downloaded" tab and click "Add Plugins".
+    27.  Navigate to and select the nbm file created in the NetBeans project folder and click "open".
+    28.  Click "install" and use the default options to install the plugin.
+    
+    This procedure should build and install the SmutDetect4Autopsy module to Autopsy.  To use this module, 
+    select tools->Run Ingest Modules and then select the image or device to run the module on.  Then select the 
+    available modules to run, which should have smutdetect4autopsy available.
          
     
     
